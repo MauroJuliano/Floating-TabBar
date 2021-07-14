@@ -13,6 +13,13 @@
 		9D40C3E8269F78C0001523B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D40C3E6269F78C0001523B3 /* Main.storyboard */; };
 		9D40C3EA269F78C2001523B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D40C3E9269F78C2001523B3 /* Assets.xcassets */; };
 		9D40C3ED269F78C2001523B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D40C3EB269F78C2001523B3 /* LaunchScreen.storyboard */; };
+		9D40C3F5269F78D1001523B3 /* FloatingTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40C3F4269F78D1001523B3 /* FloatingTabBarController.swift */; };
+		9D40C3F7269F86BF001523B3 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40C3F6269F86BF001523B3 /* ViewController1.swift */; };
+		9D40C3F9269F86C9001523B3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40C3F8269F86C9001523B3 /* ViewController2.swift */; };
+		9D40C3FB269F86D5001523B3 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40C3FA269F86D5001523B3 /* ViewController3.swift */; };
+		9D40C3FD269F86E1001523B3 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40C3FC269F86E1001523B3 /* ViewController4.swift */; };
+		9D40C3FF269F9959001523B3 /* MyTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40C3FE269F9959001523B3 /* MyTabBarItem.swift */; };
+		9D40C401269F9AE8001523B3 /* FloatTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40C400269F9AE8001523B3 /* FloatTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		9D40C3E9269F78C2001523B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D40C3EC269F78C2001523B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D40C3EE269F78C2001523B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D40C3F4269F78D1001523B3 /* FloatingTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBarController.swift; sourceTree = "<group>"; };
+		9D40C3F6269F86BF001523B3 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		9D40C3F8269F86C9001523B3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		9D40C3FA269F86D5001523B3 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		9D40C3FC269F86E1001523B3 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		9D40C3FE269F9959001523B3 /* MyTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarItem.swift; sourceTree = "<group>"; };
+		9D40C400269F9AE8001523B3 /* FloatTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			children = (
 				9D40C3E0269F78C0001523B3 /* AppDelegate.swift */,
 				9D40C3E2269F78C0001523B3 /* SceneDelegate.swift */,
+				9D40C3F4269F78D1001523B3 /* FloatingTabBarController.swift */,
+				9D40C400269F9AE8001523B3 /* FloatTabBar.swift */,
+				9D40C3FE269F9959001523B3 /* MyTabBarItem.swift */,
+				9D40C3F6269F86BF001523B3 /* ViewController1.swift */,
+				9D40C3F8269F86C9001523B3 /* ViewController2.swift */,
+				9D40C3FA269F86D5001523B3 /* ViewController3.swift */,
+				9D40C3FC269F86E1001523B3 /* ViewController4.swift */,
 				9D40C3E4269F78C0001523B3 /* ViewController.swift */,
 				9D40C3E6269F78C0001523B3 /* Main.storyboard */,
 				9D40C3E9269F78C2001523B3 /* Assets.xcassets */,
@@ -138,8 +159,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D40C3E5269F78C0001523B3 /* ViewController.swift in Sources */,
+				9D40C3F7269F86BF001523B3 /* ViewController1.swift in Sources */,
+				9D40C401269F9AE8001523B3 /* FloatTabBar.swift in Sources */,
+				9D40C3F5269F78D1001523B3 /* FloatingTabBarController.swift in Sources */,
+				9D40C3FD269F86E1001523B3 /* ViewController4.swift in Sources */,
 				9D40C3E1269F78C0001523B3 /* AppDelegate.swift in Sources */,
 				9D40C3E3269F78C0001523B3 /* SceneDelegate.swift in Sources */,
+				9D40C3FF269F9959001523B3 /* MyTabBarItem.swift in Sources */,
+				9D40C3FB269F86D5001523B3 /* ViewController3.swift in Sources */,
+				9D40C3F9269F86C9001523B3 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
